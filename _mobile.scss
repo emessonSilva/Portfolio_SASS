@@ -1,0 +1,80 @@
+@media only screen and (max-width: 768px) {
+  .subtitle {
+    font-size: 1.2rem;
+    margin: 0px 0px;
+  }
+
+  .paragraph {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.1rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  header > nav {
+    display: none;
+  }
+
+  header .fa {
+    display: block !important;
+    font-size: 1.8rem;
+    padding: 30px 20px;
+  }
+
+  .section-home > p {
+    margin: 0px;
+    font-size: 1.2rem;
+  }
+
+  .section-about-me-content {
+    grid-template-columns: 1fr;
+    row-gap: 60px;
+  }
+
+  .section-projects > ul li {
+    grid-template-columns: 1fr;
+    row-gap: 1.6rem;
+  }
+
+  .section-projects .project-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-contact > form {
+    padding: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .section-contact input,
+  textarea {
+    color: #333;
+    font-size: 0.8rem;
+  }
+
+  footer > .footer-top {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+
+  form button {
+    display: flex;
+    align-self: stretch;
+  }
+}

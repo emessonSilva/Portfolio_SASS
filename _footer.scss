@@ -1,0 +1,42 @@
+
+  
+  
+  footer {
+    background-color: black;
+    color: white;
+    padding: 0px 5%;
+  }
+  
+  footer > .footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0;
+  }
+  
+  .footer-top h4 {
+    margin-bottom: 1.6rem;
+  }
+  
+  .footer-top div:first-child {
+    width: 50%;
+  }
+  
+  .footer-top p {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #444;
+    display: flex;
+    justify-content: center;
+    padding: 2.6rem 0;
+    font-size: 0.7rem;
+  }
+  
+  a i {
+    margin: 0px 8px;
+  }
+  
+  

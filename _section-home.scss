@@ -1,0 +1,39 @@
+.section-home {
+    background: linear-gradient(
+        to right,
+        rgba(theme.$primary-color, 0.8),
+        rgba(theme.$primary-color, 0.8)
+      ),
+      url(https://raw.githubusercontent.com/augustocesarfmo/site-ancora/5d983399b0607f1cc52de1fd89830de793077630/assets/common-bg.svg);
+    background-position: center;
+    padding: 15% 10%;
+    align-items: center;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 50px;
+    text-align: center;
+    color: white;
+  
+  }
+  
+  .section-home > p {
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    width: 100%;
+    line-height: 1.6;
+  }
+  
+  .section-home > .btn {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section-home > .btn > a {
+    background-color: white;
+    color: black;
+    padding: 20px 70px;
+    border-radius: 7px;
+    font-weight: 700;
+    text-decoration: none;
+  }
